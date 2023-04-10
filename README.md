@@ -1,1 +1,3 @@
-# Beaufort_Cipher_Gr11
+# Beaufort Cipher
+
+This repository contains a Python implementation of the Beaufort Cipher, which is a polyalphabetic substitution cipher. 
