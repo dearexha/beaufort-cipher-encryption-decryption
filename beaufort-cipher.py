@@ -11,3 +11,12 @@ def beaufort_cipher(plaintext, key):
 
     return ciphertext
 
+def main():
+    # Prompt the user for the message to be encrypted or decrypted
+    plaintext = input("Enter the message to be encrypted or decrypted: ")
+    # Prompt the user for the key to be used for encryption or decryption
+    key = input("Enter the key to be used for encryption or decryption: ")
+    # Prompt the user to choose whether to encrypt or decrypt the message
+    choice = input("Enter 'e' to encrypt or 'd' to decrypt: ")
+
+
