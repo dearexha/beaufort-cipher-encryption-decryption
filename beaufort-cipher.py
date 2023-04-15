@@ -18,5 +18,17 @@ def main():
     key = input("Enter the key to be used for encryption or decryption: ")
     # Prompt the user to choose whether to encrypt or decrypt the message
     choice = input("Enter 'e' to encrypt or 'd' to decrypt: ")
+    
+     # Encrypt or decrypt the message based on the user's choice
+    if choice == 'e':
+        
+    elif choice == 'd':
+       
+    else:
+       
+
+
+if __name__ == '__main__':
+    main()
 
 
