@@ -21,11 +21,13 @@ def main():
     
      # Encrypt or decrypt the message based on the user's choice
     if choice == 'e':
-        
+        ciphertext = beaufort_cipher(plaintext, key)
+        print("Encrypted message:", ciphertext)
     elif choice == 'd':
-       
+       decryptedtext = beaufort_cipher(plaintext, key)
+       print("Decrypted message:", decryptedtext)
     else:
-       
+       print("Invalid choice. Please enter 'e' or 'd'.")
 
 
 if __name__ == '__main__':
